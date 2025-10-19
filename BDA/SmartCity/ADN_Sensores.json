@@ -1,7 +1,7 @@
 {
     "sensores": [
         {
-            "id": "SensorTemp1",
+            "id": "SensorTemp_1",
             "tipo": "SensorTemperatura",
             "fechaRegistro": {
                 "type": "DateTime",
@@ -25,7 +25,7 @@
             }
         },
         {
-            "id": "SensorCO1",
+            "id": "SensorCO2_1",
             "tipo": "SensorCO2",
             "fechaRegistro": {
                 "type": "DateTime",
@@ -44,7 +44,7 @@
             }
         },
         {
-            "id": "SensorCalidad1",
+            "id": "SensorCalidad_1",
             "tipo": "SensorCalidadAgua",
             "fechaRegistro": {
                 "type": "DateTime",
