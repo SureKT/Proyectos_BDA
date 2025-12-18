@@ -61,6 +61,7 @@ Identifica las "claves" o "IDs" que podrían servir para relacionar unos fichero
 BBDD: analisis-academico
 User: admin
 Passwd: admin1234
+url: analisis-academico.ccyxmilxfgxq.us-east-1.rds.amazonaws.com
 
 ## Tabla de Hechos y Dimensiones
 
