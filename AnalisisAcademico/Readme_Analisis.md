@@ -56,6 +56,9 @@ Identifica las "claves" o "IDs" que podrían servir para relacionar unos fichero
 └── oro /
     └── dashboards /
 
+Lo añado también como imagen porque creo que se ve mal en github:
+![alt text](image.png)
+
 ## Base de datos RDS MySQL
 
 BBDD: analisis-academico
