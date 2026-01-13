@@ -70,3 +70,28 @@ url: analisis-academico.ccyxmilxfgxq.us-east-1.rds.amazonaws.com
 ## Tabla de Hechos y Dimensiones
 
 ![alt text](<Datos - Hechos.png>)
+
+## Lista de pasos para Airflow
+
+Obtener XML
+Guardar XML en el bucket S3 capa Bronce
+
+Extraer ficheros CSV separados del XML
+Guardar CSVs en el bucket S3 capa Plata
+Guardar CSVs en carpetas
+
+Crear tablas en BD si no existen
+
+Tratamiento de datos (Alumnos, Calificaciones, Modulos, Grupos, Ciclos)
+	Eliminar columnas innecesarias
+	Estandarizar nombres de columnas
+	Limpiar filas (duplicados, nulos)
+	Crear columnas necesarias para hacer unión de Modulos y Grupos
+
+Juntar Modulos y Grupos en un solo csv
+
+Guardar datos de cada CSV en sus tablas de base de datos
+
+Crear un log en BD por cada DAG terminado
+
+Limpieza de ficheros temporales innecesarios
