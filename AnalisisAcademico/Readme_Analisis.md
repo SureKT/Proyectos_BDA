@@ -62,10 +62,9 @@ Lo añado también como imagen porque creo que se ve mal en github:
 
 ## Base de datos RDS MySQL
 
-BBDD: analisis-academico
-User: admin
-Passwd: admin1234
-url: analisis-academico.ccyxmilxfgxq.us-east-1.rds.amazonaws.com
+Base de datos MySQL en Amazon RDS (`analisis-academico`), creada en el laboratorio de AWS Academy
+del curso. El laboratorio ya no existe; las credenciales se configuran en el controller service
+de NiFi y no se versionan.
 
 ## Tabla de Hechos y Dimensiones
 
